@@ -1,0 +1,40 @@
+﻿  Interpreter.c
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(75,26): warning C4090: 'function': different 'const' qualifiers
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(134,22): warning C4090: 'function': different 'const' qualifiers
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(143,23): warning C4090: 'function': different 'const' qualifiers
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(243,22): warning C4090: 'function': different 'const' qualifiers
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(286,22): warning C4133: '==': incompatible types - from 'Error *' to '_regex *'
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(288,21): warning C4133: 'function': incompatible types - from '_regex *' to 'Error *'
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(288,24): warning C4020: 'printError': too many actual parameters
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(319,21): warning C4047: '==': 'int' differs in levels of indirection from 'Error *'
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(321,20): warning C4047: 'function': 'Error *' differs in levels of indirection from 'int'
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(321,18): warning C4024: 'printError': different types for formal and actual parameter 1
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(321,23): warning C4020: 'printError': too many actual parameters
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(367,27): warning C4133: '==': incompatible types - from 'Error *' to '_match_report *'
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(369,26): warning C4133: 'function': incompatible types - from '_match_report *' to 'Error *'
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(369,29): warning C4020: 'printError': too many actual parameters
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(412,21): warning C4133: '==': incompatible types - from 'Error *' to '_ht *'
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(414,20): warning C4133: 'function': incompatible types - from '_ht *' to 'Error *'
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(414,23): warning C4020: 'printError': too many actual parameters
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(420,33): warning C4047: 'function': 'PrintFunc' differs in levels of indirection from 'Error *(__cdecl *)(void *)'
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(420,20): warning C4024: 'printHT': different types for formal and actual parameter 2
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(355,13): warning C4101: 'match': unreferenced local variable
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(395,13): warning C4101: 'match': unreferenced local variable
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(491,22): warning C4090: 'function': different 'const' qualifiers
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(500,23): warning C4090: 'function': different 'const' qualifiers
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(529,1): warning C4133: 'initializing': incompatible types - from 'void **' to '_str **'
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(579,1): warning C4133: 'initializing': incompatible types - from 'void **' to '_str **'
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(607,1): warning C4133: 'initializing': incompatible types - from 'void **' to '_str **'
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(665,22): warning C4090: 'function': different 'const' qualifiers
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(715,23): warning C4090: 'function': different 'const' qualifiers
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(738,20): warning C4022: 'ALappend': pointer mismatch for actual parameter 2
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(748,21): warning C4022: 'ALprepend': pointer mismatch for actual parameter 2
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(759,43): warning C4022: 'ALremoveItemAddr': pointer mismatch for actual parameter 2
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(819,41): warning C4022: 'ALgetItemAddr': pointer mismatch for actual parameter 2
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(800,1): warning C4047: 'initializing': 'int' differs in levels of indirection from 'void *'
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(819,1): warning C4047: 'initializing': 'int' differs in levels of indirection from 'void *'
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(917,25): warning C4133: '=': incompatible types - from 'char [5]' to '_str *'
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(946,1): warning C4029: declared formal parameter list different from definition
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(947,164): warning C4090: 'function': different 'const' qualifiers
+C:\Users\lukec\source\repos\Regeces\Regeces\Interpreter.c(962): warning C4715: 'printError': not all control paths return a value
+  Regeces.vcxproj -> C:\Users\lukec\source\repos\Regeces\Debug\Regeces.exe
