@@ -21,7 +21,7 @@
   <ItemGroup>
     <ClCompile Include="arraylist.c" />
     <ClCompile Include="hashtable.c" />
-    <ClCompile Include="Interpreter.c" />
+    <ClCompile Include="CLI.c" />
     <ClCompile Include="LinkedList.c" />
     <ClCompile Include="regex.c" />
     <ClCompile Include="string.c" />
@@ -29,7 +29,7 @@
   <ItemGroup>
     <ClInclude Include="arraylist.h" />
     <ClInclude Include="hashtable.h" />
-    <ClInclude Include="interpreter.h" />
+    <ClInclude Include="CLI.h" />
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="regex.h" />
     <ClInclude Include="string.h" />

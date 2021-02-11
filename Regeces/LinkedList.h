@@ -3,7 +3,7 @@
 
 #define LinkedList struct _linkedlist
 #define LLNode     struct _llnode
-#include "interpreter.h"
+#include "CLI.h"
 #include "string.h"
 
 

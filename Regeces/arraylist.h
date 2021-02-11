@@ -1,6 +1,6 @@
 #ifndef ARRAY_LIST_H
 
-#include "interpreter.h"
+#include "CLI.h"
 #include "linkedlist.h"
 
 #define ArrayList struct _arrlist

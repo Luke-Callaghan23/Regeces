@@ -1,7 +1,7 @@
 #ifndef STRING_H
 #define STRING_H 0
 
-#include "interpreter.h"
+#include "CLI.h"
 
 struct _str 
 {

@@ -2,7 +2,7 @@
 #define REGEX_H 0
 
 
-#include "interpreter.h"
+#include "CLI.h"
 #include "string.h"
 #include "hashtable.h"
 #include "linkedlist.h"

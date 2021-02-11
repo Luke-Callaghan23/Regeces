@@ -21,9 +21,6 @@
     <ClCompile Include="hashtable.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Interpreter.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="LinkedList.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -31,6 +28,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLI.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -41,9 +41,6 @@
     <ClInclude Include="hashtable.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="interpreter.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="LinkedList.h">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -51,6 +48,9 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="string.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLI.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
