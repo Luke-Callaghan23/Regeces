@@ -50,4 +50,7 @@ Error * freeAL(ArrayList *);
 Error * printAL(ArrayList *, PrintFunc);
 
 
+void freeArrayList(ArrayList *);
+
+
 #endif // !ARRAY_LIST_H

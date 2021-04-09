@@ -50,4 +50,6 @@ Error * printHT(HashTable *, PrintFunc);
 HashTable * HTgroupLLBy(LinkedList *);
 
 
+void freeHashTable(HashTable *);
+
 #endif 

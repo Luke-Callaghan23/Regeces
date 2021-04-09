@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-const string arraylist_stack = "C.Interpreter.Collections.ArrayList.arraylist.c";
+const string arraylist_stack = "arraylist.c";
 
 Error * ALreclaim(ArrayList *);
 
@@ -1360,4 +1360,26 @@ Error * printAL(ArrayList* arraylist, PrintFunc pf)
 
 	return NULL;
 
+}
+
+
+
+void freeArrayList(ArrayList * arraylist)
+{
+	if (arraylist->postList)
+	{
+		freeLinkedList(arraylist->postList);
+	}
+	if (arraylist->preList)
+	{
+		freeLinkedList(arraylist->preList);
+	}
+
+
+	for (int iLoop = 0; iLoop < arraylist->iArrLen; iLoop++)
+	{
+		free(arraylist->array[iLoop]);
+	}
+
+	free(arraylist);
 }

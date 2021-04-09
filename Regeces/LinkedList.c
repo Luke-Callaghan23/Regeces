@@ -4,7 +4,7 @@
 
 
 
-const string linkedlist_stack = "C.Interpreter.Collections.LinkedList.LinkedList.c";
+const string linkedlist_stack = "LinkedList.c";
 
 
 LinkedList * getLL()
@@ -877,4 +877,19 @@ Error * printLL(LinkedList * linkedlist, PrintFunc pf)
 		frontPtr = frontPtr->next;
 	}
 	return NULL;
+}
+
+
+
+void freeLinkedList(LinkedList* ll)
+{
+	LLNode * ptr = ll->front;
+	while (ptr)
+	{
+		LLNode * next = ptr->next;
+
+		free(ptr);
+		ptr = next;
+	}
+	free(ll);
 }

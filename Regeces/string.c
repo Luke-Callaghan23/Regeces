@@ -6,7 +6,7 @@
 const int lowerRange[] = { 97, 122 };
 const int upperRange[] = { 65,  90 };
 
-const string string_stack = "C.Interpreter.Collections.String.string.c";
+const string string_stack = "string.c";
 
 //Simple getter that recieves a basic char * string, and returns a struct Str String
 String getString(const string original)
@@ -362,4 +362,10 @@ Error * freeStr(String * str)
 	free(str->data);
 	free(str);
 	return NULL;
+}
+
+void freeString(String * str)
+{
+	free(str->data);
+	free(str);
 }

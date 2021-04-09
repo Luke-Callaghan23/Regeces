@@ -4,7 +4,7 @@
 #include "string.h"
 
 
-const string hashtable_stack = "C.Interpreter.Collections.HashTable.hashtable.c";
+const string hashtable_stack = "hashtable.c";
 
 HashTable * getHT(int len)
 {
@@ -478,4 +478,48 @@ Error * printHT(HashTable * hashtable, PrintFunc pf)
     }
     return NULL;
 
+}
+
+/*
+
+struct _kvp 
+{
+    String * str;
+    uint32_t key;
+    void * data;
+    struct _kvp * next;
+};
+
+
+struct _ht 
+{
+    int size;
+    int len;
+    kvPair ** hashTable;
+    LinkedList * keys;
+};
+
+*/
+
+void freeHashTable(HashTable* ht)
+{
+    freeLinkedList(ht->keys);
+    
+
+    for (int iLoop = 0; iLoop < ht->size; iLoop++)
+    {
+        kvPair * ptr = ht->hashTable;
+
+        while (ptr)
+        {
+            kvPair * next = ptr->next;
+            
+            freeString(ptr->str);
+            free(ptr);
+            ptr = next;
+        }
+    }
+
+    free(ht->hashTable);
+    free(ht);
 }

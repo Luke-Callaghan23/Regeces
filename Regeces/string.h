@@ -25,6 +25,7 @@ Error * printStringLong(void *);
 String * strAddStringFreeBoth(String *, String *);
 String * getStrKnownLen(string, int);
 
+void freeString(String *);
 
 
 #endif // !STRING_H

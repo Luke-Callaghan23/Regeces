@@ -45,4 +45,7 @@ Error * freeLL(LinkedList *);
 Error * printLL(LinkedList *, PrintFunc);
 void * LLmax(LinkedList *, Compare);
 
+
+void freeLinkedList(LinkedList *);
+
 #endif // ! LINKED_LIST_H
